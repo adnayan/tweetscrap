@@ -3,11 +3,11 @@ import datetime as dt
 import time
 import tweepy
 
-consumer_key = "1OOdhYWmbmhSOcp9PRuf3XZmo"
-consumer_secret = "XlIraBHaTI4JCPJKlMbObWdL29iQ50bZyWd79III4Bq7dTrKZ8"
+consumer_key = "your consumer key"
+consumer_secret = "your consumer secret"
 
-access_token = "1160107833167364137-rQ1XhXN9AfSsOV3tPna9dqexi64IRD"
-access_token_secret = "fwYgmlTYPejzgA9YJT0CuW34DtciSQmyvZiZrtwmQexgV"
+access_token = "your access token"
+access_token_secret = "yout access token secret"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -23,7 +23,7 @@ api = tweepy.API(auth)
 
 from_date = dt.datetime(2019, 8, 1, 0, 0, 0)
 to_date = dt.datetime(2019, 9, 1, 0, 0, 0)
-username = "@AmazonTeamOrg"
+username = "a_tweeter_user"
 
 """ 
     Columns name:   Column value in twitter status
